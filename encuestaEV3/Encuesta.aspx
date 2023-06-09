@@ -8,11 +8,11 @@
             <asp:TextBox CssClass="form-control" ID="nombre" runat="server" MaxLength="40"></asp:TextBox>
             <asp:Label CssClass="form-label p-2" runat="server" Text="Seleccionar rango de edad:" AssociatedControlID="DropDownList1"></asp:Label>
                 <asp:DropDownList ID="DropDownList1" runat="server">
-                <asp:ListItem Disabled="True" Enabled="True" Selected="True">--Seleccione--</asp:ListItem>
-                <asp:ListItem>18-34</asp:ListItem>
-                <asp:ListItem>35-60</asp:ListItem>
-                <asp:ListItem>61-100</asp:ListItem>
-            </asp:DropDownList>
+                    <asp:ListItem Disabled="True" Enabled="True" Selected="True">--Seleccione--</asp:ListItem>
+                    <asp:ListItem>18-34</asp:ListItem>
+                    <asp:ListItem>35-60</asp:ListItem>
+                    <asp:ListItem>61-100</asp:ListItem>
+                </asp:DropDownList>
                 <div CssClass="row">
                     <asp:Label CssClass="form-label" runat="server" Text="Sexo:"></asp:Label>
                     <asp:RadioButton ID="RadioButton1" runat="server" GroupName="genero" Text="Femenino"/>

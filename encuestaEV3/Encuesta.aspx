@@ -34,8 +34,8 @@
                 <asp:CheckBox ID="CheckBox4" runat="server" CssClass="form-check px-1 pt-2" />
             </div>
                 <div class="col d-flex flex-column">
-                    <asp:Button ID="Button1" runat="server" Text="Enviar" CssClass="btn btn-primary mt-4 mx-auto px-5" />
-                    <asp:Label ID="Label6" runat="server" Text="" CssClass="my-2"></asp:Label>
+                    <asp:Button onClick="Button1_Click" ID="Button1" runat="server" Text="Enviar" CssClass="btn btn-primary mt-4 mx-auto px-5" />
+                    <asp:Label ID="Label6" runat="server" CssClass="my-2"></asp:Label>
                 </div>
             
             </section>

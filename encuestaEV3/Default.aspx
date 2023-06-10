@@ -19,7 +19,7 @@
                 </asp:UpdatePanel>
                 <asp:UpdateProgress ID="UpdateProgress1" runat="server">
                     <ProgressTemplate>
-                        Procesando...
+                        Cargando...
                     </ProgressTemplate>
                 </asp:UpdateProgress>
 

@@ -23,5 +23,10 @@ namespace encuestaEV3
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Label6.Text = "Gracias por participar.";
+        }
     }
 }

@@ -13,5 +13,11 @@ namespace encuestaEV3
         {
 
         }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            // Añadiendo delay
+            System.Threading.Thread.Sleep(3000);
+            Response.Redirect("Encuesta.aspx");
+        }
     }
 }

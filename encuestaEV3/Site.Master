@@ -56,7 +56,10 @@
             </div>
         </nav>
         <div class="container body-content">
-            <h1>Realizar encuesta</h1>
+            <div class="text-center">
+                <h1>Realizar encuesta</h1>
+            </div>
+            
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />

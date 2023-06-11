@@ -23,7 +23,7 @@
                 <div class="pt-2 pb-1">
                     <asp:Label ID="Label5" runat="server" Text="Selecciona tus intereses:" CssClass="form-label fw-semibold"></asp:Label>
                 </div>
-            <div class="container d-flex justify-content-center">
+            <div class="d-flex justify-content-center">
                 <asp:Label ID="Label1" runat="server" Text="Deportes" CssClass="form-check-label mx-auto my-auto" AssociatedControlID="CheckBox1"></asp:Label>
                 <asp:CheckBox ID="CheckBox1" runat="server" CssClass="form-check px-1 pt-2" />
                 <asp:Label ID="Label2" runat="server" Text="Ciencias" CssClass="form-check-label mx-auto my-auto" AssociatedControlID="CheckBox2"></asp:Label>
